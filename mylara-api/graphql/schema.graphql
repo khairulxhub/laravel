@@ -1,0 +1,15 @@
+type user {
+  id:ID!
+  name: string!
+  email: string!
+  password: string!
+}
+
+type  Query {
+  users: [User!]! @all 
+  user (id:ID! @eq) : @find
+}
+
+type Mutation {
+  createUSer  (name)
+}

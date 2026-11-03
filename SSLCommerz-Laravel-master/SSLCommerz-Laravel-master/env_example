@@ -1,0 +1,4 @@
+APP_URL=<homepage full URL> // e.g. "https://example.com"
+SSLCZ_STORE_ID=<your store id>
+SSLCZ_STORE_PASSWORD=<your store password>
+SSLCZ_TESTMODE=true // set false when using live store id
